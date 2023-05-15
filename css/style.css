@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+  list-style: none;
+  color: #11111B;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1em;
+}
+body{
+  scroll-behavior: smooth;
+}
+
+.h2-geral{
+  color: #67D153;
+  font-size: 1.5625em;
+  text-align: center;
+  padding: 40px;
+}
+
+/*Inicio Header*/
+
+header{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  box-shadow:  0 0 10px 10px #11111b49;
+}
+
+.lista-links{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lista-links li,a{
+  padding: 10px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.lista-links a:hover{
+  background: #67D153;
+  color: white;
+}
+
+
+header span{
+  padding: 10px;
+  margin:  0 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #67D153;
+}
+
+/*Inicio Home*/
+.pagina-inicial{
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagina-inicial h1{
+  font-size: 2.1875em;
+}
+
+.h2-pg-inicial{
+  font-size: 1.5625em;
+  color: #67D153;
+}
+
+.pagina-inicial img{
+  width: 400px;
+}
+
+/*Inicio Sobre*/
+
+.sobre{
+  width: 100vw;
+  min-height: 100vh;
+  background: #191622;
+}
+
+.conteudo-sobre{
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.conteudo-sobre p{
+  color: white;
+}
+
+/*Inicio Formação*/
+
+.escolaridade{
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.escolaridade-geral{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.escolaridade img{
+  width: 500px;
+  margin: 10px;
+}
+
+.clone-vs{
+  max-width: 500px;
+  height: 420px;
+  margin: 10px;
+  background: #191622;
+  border-radius: 10px;
+}
+
+.vs-menu{
+  background: #DDE9F1;
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-esquerdo{
+  background: #191622;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+
+.menu-esquerdo span{
+  color: #DDE9F1; 
+  border-radius: 4px;
+  padding: 0 16px;  
+  background: #100e16;
+}
+
+.menu-direito img{
+  margin-right: 5px;
+  width: 12px;
+}
+
+.conteudo-vs{
+  display: flex;
+}
+
+.qtd-linha{
+  width: 25px;
+  height: 200px;
+  padding: 25px;
+}
+
+.qtd-linha span{  
+  color: #5A487B;
+}
+
+.texto-vs{
+  margin-top: 25px;
+}
+
+.texto-vs .ano{
+  color:#ff77b7;
+}
+
+.texto-vs .curso{
+  margin-left: 20px;
+  color: white;
+}
+
+/*Inicio Projeto*/
+
+.projetos{
+  width: 100vw;
+  min-height: 100vh;
+  background: #19162225;
+  text-align: center;
+}
+
+.conteiner-projetos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.conteiner-projetos img{
+  max-width: 360px;
+  margin-top: 10px;
+}
+
+.ref-projetos{
+  color: rgb(0, 162, 255);
+}
+
+/*Inicio Form*/
+
+.contato{
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.form-contato{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-geral{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-esquerda{
+  width: 47%;
+  margin: 10px;
+}
+
+.input-direita{  
+  width: 48%;
+  margin: 10px;
+}
+
+.input-nome{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+.input-email{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-assunto{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-whatsapp{
+  display: flex;
+  flex-direction: column;
+}
+
+textarea{
+  margin: 10px;
+  max-width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+form input[type="submit"]{
+  color: #67D153;
+  background: white;
+  font-weight: bold;
+  border: 1px solid #67D153;
+  border-radius: 10px;
+  padding: 15px 40px;
+  cursor: pointer;
+  width:300px;  
+  margin: 10px;
+}
+form input[type="submit"]:hover{
+  background: #19162204;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  background: #11111B;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.icones span{
+  color: white;
+}
+
+footer p{
+  margin: 10px;
+  color: white;
+}
+
+
+@media screen and ( max-width:1000px ) {
+
+  .form-geral, .input-esquerda, .input-direita{
+    width: 100%;
+  }
+  
+}
