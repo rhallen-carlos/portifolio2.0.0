@@ -37,7 +37,6 @@ header{
 
 .lista-links li,a{
   padding: 10px;
-  margin: 10px 20px;
   cursor: pointer;
 }
 
@@ -193,10 +192,62 @@ header span{
   justify-content: center;
   flex-wrap: wrap;
 }
+.padrao-projetos{ 
+  margin: 10px;
+  width: 360px;
+  height: 200px;
+}
 
-.conteiner-projetos img{
-  max-width: 360px;
-  margin-top: 10px;
+.portifolio{  
+  background-image: url("../img/portifolio.png");
+  background-size: cover;
+}
+
+.painel-controle{
+  
+  background-image: url("../img/dasboard.png");
+  background-size: cover;
+}
+
+.formulario{
+  background-image: url("../img/formulario.png");
+  background-size: cover;
+}
+
+.formulario01{
+  background-image: url("../img/formulario02.png");
+  background-size: cover;  
+}
+
+.flexblog{
+  background-image: url("../img/flexblog.png");
+  background-size: cover;
+}
+
+.descricao-projeto {
+    width: 100%;
+    height: 100%;
+    color: #191622;
+    opacity: 0;
+
+}
+
+.descricao-projeto a{
+  padding: 10px;
+  background: #67D153;
+}
+
+.descricao-projeto:hover{
+  background: #c5dae7da;
+  opacity: 1;
+}
+
+.descricao-projeto a:hover{
+  background: #68d1537a;
+}
+
+.projetos p{
+  padding: 20px;
 }
 
 .ref-projetos{
@@ -286,8 +337,7 @@ form{
 }
 
 footer{
-  background: #11111B;
-  padding: 10px;
+  background: #11111B;  
   height: 100px;
   display: flex;
   flex-wrap: wrap;
@@ -295,8 +345,13 @@ footer{
   align-items: center;
 }
 
-.icones span{
+.footer-link a{
   color: white;
+  padding: 0 5px;
+}
+
+.footer-link a:hover{
+  color: #67D153;
 }
 
 footer p{
